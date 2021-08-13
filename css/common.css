@@ -211,6 +211,10 @@ img {
   text-align: center;
   line-height: 1;
   padding: 32px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .l-main {
@@ -465,11 +469,19 @@ ________________________________________________________________________________
   letter-spacing: .05em;
   line-height: 1.5;
   margin-bottom: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-about-content__text {
   letter-spacing: .1em;
   margin-bottom: 40px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-about-content__img {
@@ -537,11 +549,19 @@ ________________________________________________________________________________
   letter-spacing: .1em;
   line-height: 1;
   margin-bottom: 45px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-service-heading__sub {
   letter-spacing: .1em;
   padding: 0 30px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-contact-item {
@@ -570,9 +590,14 @@ ________________________________________________________________________________
 
 .p-contact-item__text {
   letter-spacing: .1em;
-  line-height: 1;
+  line-height: 1.6;
   margin-top: 16px;
   margin-bottom: 23px;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-contact-item__tel {
@@ -583,11 +608,20 @@ ________________________________________________________________________________
   letter-spacing: .1em;
   line-height: 1;
   margin-bottom: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-contact-item__description {
   letter-spacing: .1em;
-  line-height: 1;
+  line-height: 1.6;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-contact-item__button {
@@ -610,11 +644,19 @@ ________________________________________________________________________________
   letter-spacing: .1em;
   line-height: 1;
   margin-bottom: 37px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-contact-heading__sub {
   letter-spacing: .01em;
   line-height: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-contact-foot {
@@ -625,6 +667,10 @@ ________________________________________________________________________________
 
 .p-contact-foot__text {
   margin-bottom: 38px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-footer-left {
@@ -641,6 +687,10 @@ ________________________________________________________________________________
   line-height: 1;
   font-size: 22.4px;
   font-size: 1.4rem;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .p-footer-left__tel {
@@ -735,6 +785,10 @@ ________________________________________________________________________________
       -ms-flex-direction: column;
           flex-direction: column;
   color: #dddddd;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c-header-tel__bk {
@@ -773,6 +827,7 @@ ________________________________________________________________________________
 
 .c-main-slider-item__img {
   width: 100%;
+  height: 100%;
   height: calc(100vh - 200px);
 }
 
@@ -812,6 +867,10 @@ ________________________________________________________________________________
   margin-bottom: 24px;
   white-space: nowrap;
   text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c-information__item {
@@ -853,6 +912,10 @@ ________________________________________________________________________________
 .c-heading {
   font-family: "Noto Serif JP";
   position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c-heading__main {
@@ -913,18 +976,30 @@ ________________________________________________________________________________
   line-height: 1;
   letter-spacing: .1em;
   margin-bottom: 25px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c-voice-item__category {
   line-height: 1;
   letter-spacing: .1em;
   margin-bottom: 14px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c-voice-item__text {
   margin-bottom: 20px;
   letter-spacing: .1em;
   line-height: 1.3;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c-more-button {
@@ -994,11 +1069,19 @@ ________________________________________________________________________________
   letter-spacing: .1em;
   line-height: 1;
   margin-bottom: 24px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .c-service-item__text {
   letter-spacing: .1em;
   line-height: 1.6;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .hamburger {
@@ -1148,8 +1231,12 @@ ________________________________________________________________________________
   display: none;
 }
 
-.u-tb__none br {
-  display: block;
+.u-tb__none {
+  display: inline;
+}
+
+.u-pc__none {
+  display: inline;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
@@ -1259,9 +1346,9 @@ ________________________________________________________________________________
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
   }
   .c-header-logo {
     width: 260px;
@@ -1320,10 +1407,10 @@ ________________________________________________________________________________
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .u-sp__none br {
-    display: block;
+  .u-sp__none {
+    display: inline;
   }
-  .u-tb__none br {
+  .u-tb__none {
     display: none;
   }
 }
@@ -1525,8 +1612,24 @@ ________________________________________________________________________________
   .p-service-heading__sub {
     padding: 0;
   }
+  .p-contact-item__text {
+    line-height: 1;
+    text-align: left;
+  }
+  .p-contact-item__description {
+    line-height: 1;
+  }
   .p-footer-left {
     margin-bottom: 0;
+  }
+  .p-footer-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   .c-main-heading {
     -webkit-writing-mode: vertical-rl;
@@ -1603,6 +1706,9 @@ ________________________________________________________________________________
   .u-mt {
     margin-top: -50px;
   }
+  .u-pc__none {
+    display: none;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -1619,7 +1725,7 @@ ________________________________________________________________________________
     padding-top: 0;
   }
   .l-information__block {
-    margin-top: -50px;
+    margin-top: -110px;
   }
   .l-about__heading {
     margin-left: 0;
@@ -1632,6 +1738,14 @@ ________________________________________________________________________________
   }
   .l-service__container {
     padding: 0px;
+  }
+  .c-main-slider-item__img {
+    height: 100%;
+  }
+  .c-main-slider-item__text {
+    top: 65%;
+    bottom: auto;
+    right: 0;
   }
   .c-voice-item {
     padding: 71px 100px 72px 87px;
