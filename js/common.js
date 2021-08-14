@@ -54,11 +54,16 @@ $(function () {
     //自動再生
     dots: true,
     //
-    arrows: true // centerMode: true,
-    // centerPadding: "25%",
-    // prevArrow: '<img src="./images/common/icon-slick-prev.svg" class="u-slick-arrow__prev slick-arrow slick-prev" width="60px" height="auto">',
-    // nextArrow: '<img src="./images/common/icon-slick-next.svg" class="u-slick-arrow__next slick-arrow slick-next" width="60px" height="auto">',
-
+    arrows: true,
+    centerMode: true,
+    centerPadding: "25%",
+    responsive: [{
+      breakpoint: 1024,
+      settings: {
+        centerMode: false,
+        centerPadding: "0"
+      }
+    }]
   }); //global-navの開閉
 
   $('.js-hamburger').on('click', function () {
