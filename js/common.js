@@ -64,13 +64,74 @@ $(function () {
         centerPadding: "0"
       }
     }]
-  }); //global-navの開閉
+  }); // global-navの開閉
 
   $('.js-hamburger').on('click', function () {
     if ($(this).hasClass('is-active')) {
       $('.js-global-nav').addClass('is-active');
     } else {
       $('.js-global-nav').removeClass('is-active');
+    }
+  }); // inview
+
+  $('.js-information').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-about__heading').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-about__content').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-about__img1').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-about__img2').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-about__img3').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-voice__heading').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+      $('.js-voice__first').addClass('is-active');
+    }
+  });
+  $('.js-voice__second').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-collection').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $('.js-collection__heading').addClass('is-active');
+      $('.js-collection__slider').addClass('is-active');
+    }
+  });
+  $('.js-service').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $('.js-service-heading').addClass('is-active');
+      $('.js-service-item').addClass('is-active');
+    }
+  });
+  $('.js-contact').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $('.js-contact__heading').addClass('is-active');
+      $('.js-contact-item').addClass('is-active');
+      $('.js-contact-foot').addClass('is-active');
     }
   });
 });
