@@ -638,8 +638,8 @@ ________________________________________________________________________________
   opacity: 0;
   -webkit-transition: .4s;
   transition: .4s;
-  -webkit-transition-delay: .8s;
-          transition-delay: .8s;
+  -webkit-transition-delay: .4s;
+          transition-delay: .4s;
 }
 
 .p-about-img__left.is-active {
