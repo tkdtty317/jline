@@ -328,6 +328,17 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transform: translate(0, 40px);
+          transform: translate(0, 40px);
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.l-voice__more-button.is-active {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  opacity: 1;
 }
 
 .l-collection {
@@ -982,7 +993,6 @@ ________________________________________________________________________________
   height: 50px;
   border: 1px solid #555555;
   color: #dddddd;
-  background-color: #000000;
   font-size: 22.4px;
   font-size: 1.4rem;
   -webkit-box-pack: center;

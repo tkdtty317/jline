@@ -104,13 +104,18 @@ $(function () {
       $(this).addClass('is-active');
     }
   });
-  $('.js-voice__heading').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+  $('.js-voice').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
     if (isInView) {
-      $(this).addClass('is-active');
+      $('.js-voice__heading').addClass('is-active');
       $('.js-voice__first').addClass('is-active');
     }
   });
   $('.js-voice__second').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
+    if (isInView) {
+      $(this).addClass('is-active');
+    }
+  });
+  $('.js-voice__button').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
     if (isInView) {
       $(this).addClass('is-active');
     }
