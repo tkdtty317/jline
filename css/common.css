@@ -431,6 +431,19 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transform: translate(0, 40px);
+          transform: translate(0, 40px);
+  opacity: 0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  -webkit-transition-delay: 1.2s;
+          transition-delay: 1.2s;
+}
+
+.l-collection__more-button.is-active {
+  -webkit-transform: translate(0, 0);
+          transform: translate(0, 0);
+  opacity: 1;
 }
 
 .l-service {

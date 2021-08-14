@@ -116,6 +116,7 @@ $(function () {
     if (isInView) {
       $('.js-collection__heading').addClass('is-active');
       $('.js-collection__slider').addClass('is-active');
+      $('.js-collection__button').addClass('is-active');
     }
   });
   $('.js-service').on('inview', function (event, isInView, visiblePartX, visiblePartY) {
