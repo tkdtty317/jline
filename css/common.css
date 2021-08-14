@@ -372,14 +372,7 @@ img {
   padding-bottom: 80px;
 }
 
-.l-collection__heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100%;
+.l-collection__move {
   -webkit-transform: translate(0, 40px);
           transform: translate(0, 40px);
   opacity: 0;
@@ -389,10 +382,20 @@ img {
           transition-delay: .4s;
 }
 
-.l-collection__heading.is-active {
+.l-collection__move.is-active {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
   opacity: 1;
+}
+
+.l-collection__heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
 }
 
 .l-collection__bg {
