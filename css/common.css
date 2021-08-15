@@ -529,6 +529,8 @@ img {
 
 .l-global-nav__menus {
   margin-bottom: 32px;
+  height: 70%;
+  overflow-y: scroll;
 }
 
 .l-global-nav__item {
