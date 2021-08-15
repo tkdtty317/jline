@@ -1964,6 +1964,7 @@ ________________________________________________________________________________
   }
   .c-main-slider-item__img {
     width: 75%;
+    height: auto;
   }
   .c-main-slider-item__text {
     bottom: 20%;
@@ -2017,7 +2018,7 @@ ________________________________________________________________________________
     padding: 65px 55px 75px;
   }
   .l-main-visual .slick-dots {
-    bottom: 20%;
+    bottom: 15%;
   }
   .l-collection .slick-arrow {
     width: 60px;
@@ -2067,9 +2068,6 @@ ________________________________________________________________________________
   .l-service__container {
     padding: 0px;
   }
-  .c-main-slider-item__img {
-    height: 100%;
-  }
   .c-main-slider-item__text {
     bottom: 25.5%;
     right: 0;
@@ -2077,6 +2075,9 @@ ________________________________________________________________________________
   .c-voice-item {
     padding: 71px 100px 72px 87px;
     width: 42.5%;
+  }
+  .l-main-visual .slick-dots {
+    bottom: 20%;
   }
 }
 
