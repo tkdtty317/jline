@@ -1872,6 +1872,9 @@ ________________________________________________________________________________
   .l-service {
     padding-top: 155px;
   }
+  .l-global-nav {
+    display: none;
+  }
   .p-about-content {
     padding-top: 50px;
     width: 50%;
